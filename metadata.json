@@ -1,0 +1,10 @@
+{
+  "name": "Pampa de Hierro — MMORPG Medieval Argentino 3D",
+  "description": "Juego MMORPG isométrico 3D medieval argentino con combos estilo MU Online, evoluciones, resets infinitos, mazmorras dinámicas, comercio justo anti-RMT, clanes con logo propio, torneos PvP, voz de proximidad y panel web de administración y seguridad.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

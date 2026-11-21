@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Barlow Condensed', system-ui, sans-serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+
+  html,
+  body,
+  #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: var(--font-sans);
+    background-color: #090c11;
+    color: #f4f1ea;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono-nums {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom thin scrollbars inside modals only */
+.pampa-scroll::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.pampa-scroll::-webkit-scrollbar-track {
+  background: rgba(15, 20, 29, 0.7);
+}
+.pampa-scroll::-webkit-scrollbar-thumb {
+  background: rgba(212, 166, 74, 0.45);
+  border-radius: 3px;
+}
+.pampa-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 166, 74, 0.75);
+}
